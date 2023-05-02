@@ -1,7 +1,9 @@
 # legged_robot
 
 <details>
-    <summary>## Install [ROS melodic](http://wiki.ros.org/melodic/Installation/Ubuntu)</summary>
+    <summary> Install ros melodic </summary>
+    
+## Install [ROS melodic](http://wiki.ros.org/melodic/Installation/Ubuntu)
 
 Setup your sources.list
 ```
