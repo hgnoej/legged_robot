@@ -1,5 +1,7 @@
 # legged_robot
 
+Ubuntu 18.04
+
 <details>
     <summary> Install ROS Melodic </summary>
     
