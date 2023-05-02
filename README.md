@@ -1,9 +1,9 @@
 # legged_robot
 
 <details>
-    <summary> Install ros melodic </summary>
+    <summary> Install ROS Melodic </summary>
     
-## Install [ROS melodic](http://wiki.ros.org/melodic/Installation/Ubuntu)
+## Install [ROS Melodic](http://wiki.ros.org/melodic/Installation/Ubuntu)
 
 Setup your sources.list
 ```
@@ -85,3 +85,43 @@ Now start simulation!
 </details>
 
 ## Real robot
+
+★★★ Connect IP ★★★
+
+1. HIGHLEVEL control mode
+
+Terminal 1
+```
+$ roslaunch unitree_legged_real real.launch ctrl_level:=highlevel
+```
+
+Terminal 2
+```
+$ rosrun unitree_legged_real example_walk
+```
+
+2. LOWLEVEL control mode
+
+Terminal 1
+```
+$ roslaunch unitree_legged_real real.launch ctrl_level:=lowlevel
+```
+
+Terminal 2
+```
+$ rosrun unitree_legged_real example_position
+```
+
+---
+
+You can also run the node state_sub to subscribe the feedback information from robot
+```
+$ rosrun unitree_legged_real state_sub
+```
+
+You can also run the launch file that enables you control robot via keyboard like you can do in turtlesim package
+```
+$ roslaunch unitree_legged_real keyboard_control.launch
+```
+
+And before you do the low-level control, please press L2+A to sit the robot down and then press L1+L2+start to make the robot into mode in which you can do joint-level control, finally make sure you hang the robot up before you run low-level control.
