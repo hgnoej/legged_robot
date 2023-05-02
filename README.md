@@ -36,7 +36,7 @@ $ rosdep update
 
 Make workspace
 ```
-$ mkdir -p ~/catkin_ws/src
+$ mkdir -p ~/legged_ws/src
 ```
 
 *You have to install three packages!*
@@ -44,7 +44,7 @@ $ mkdir -p ~/catkin_ws/src
 
 Install and build package 1
 ```
-$ cd catkin_ws/src
+$ cd legged_ws/src
 $ git clone https://github.com/unitreerobotics/unitree_legged_sdk.git
 $ cd unitree_legged_sdk
 $ mkdir build
@@ -55,22 +55,23 @@ $ make
 
 Install and build package 2
 ```
-$ cd catkin_ws/src
+$ cd legged_ws/src
 $ git clone https://github.com/unitreerobotics/unitree_ros_to_real.git
 ```
 
 Install and build package 3
 ```
-$ cd catkin_ws/src
+$ cd legged_ws/src
 $ git clone https://github.com/unitreerobotics/unitree_ros.git
 $ sudo apt-get install ros-melodic-controller-interface  ros-melodic-gazebo-ros-control ros-melodic-joint-state-controller ros-melodic-effort-controllers ros-melodic-joint-trajectory-controller
 ```
 
 open the new termial
 ```
-$ cd catkin_ws
+$ cd legged_ws
 $ catkin_make
 ```
 
 Now start simulation!
 
+## Real robot
