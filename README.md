@@ -86,6 +86,11 @@ $ catkin_make
 Now start simulation!
 </details>
 
+## Realsense camera
+```
+$ roslaunch realsense2_camra rs_camera.launch
+```
+
 ## Real robot
 
 ★★★ Connect IP ★★★
