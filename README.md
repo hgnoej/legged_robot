@@ -1,6 +1,7 @@
 # legged_robot
 
-## Install [ROS melodic](http://wiki.ros.org/melodic/Installation/Ubuntu)
+<details>
+    <summary>## Install [ROS melodic](http://wiki.ros.org/melodic/Installation/Ubuntu)</summary>
 
 Setup your sources.list
 ```
@@ -31,6 +32,7 @@ $ sudo apt install python-rosdep python-rosinstall python-rosinstall-generator p
 $ sudo apt install python-rosdep
 $ rosdep update
 ```
+</details>
 
 ## Simulation
 
