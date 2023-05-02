@@ -36,6 +36,10 @@ $ rosdep update
 ```
 </details>
 
+
+<details>
+    <summary> Simulation </summary>
+    
 ## Simulation
 
 Make workspace
@@ -77,5 +81,6 @@ $ catkin_make
 ```
 
 Now start simulation!
+</details>
 
 ## Real robot
