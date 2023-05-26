@@ -87,9 +87,24 @@ Now start simulation!
 </details>
 
 ## Realsense camera
+
+**Terminal 1**
+★★★ Connect WIFI (Unitree ~) ★★★
+```
+$ ssh unitree@192.168.123.12
+```
+password: 123
+
+
 ```
 $ roslaunch realsense2_camra rs_camera.launch
 ```
+
+**Terminal 2**
+```
+$ rqt_image_view
+```
+
 
 ## Real robot
 
