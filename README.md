@@ -89,6 +89,7 @@ Now start simulation!
 ## Realsense camera
 
 **Terminal 1**
+
 ★★★ Connect WIFI (Unitree ~) ★★★
 ```
 $ ssh unitree@192.168.123.12
