@@ -93,9 +93,15 @@ $ roslaunch realsense2_camra rs_camera.launch
 
 ## Real robot
 
-★★★ Connect IP ★★★
+★★★ Connect WIFI (Unitree ~) ★★★
+★★★ All terminal ★★★
+```
+$ ssh unitree@192.168.123.12
+```
+password: 123
 
-1. HIGHLEVEL control mode
+
+**1. HIGHLEVEL control mode: Walking etc.**
 
 Terminal 1
 ```
@@ -107,7 +113,7 @@ Terminal 2
 $ rosrun unitree_legged_real example_walk
 ```
 
-2. LOWLEVEL control mode
+**2. LOWLEVEL control mode: Position and velocity etc.**
 
 Terminal 1
 ```
