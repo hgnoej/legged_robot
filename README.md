@@ -122,6 +122,7 @@ password: 123
 
 Terminal 1
 ```
+$ source ~/legged_ws/devel/setup.bash
 $ roslaunch unitree_legged_real real.launch ctrl_level:=highlevel
 ```
 
@@ -134,6 +135,7 @@ $ rosrun unitree_legged_real example_walk
 
 Terminal 1
 ```
+$ source ~/legged_ws/devel/setup.bash
 $ roslaunch unitree_legged_real real.launch ctrl_level:=lowlevel
 ```
 
